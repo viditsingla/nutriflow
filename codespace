@@ -1,9 +1,0 @@
-# 1) Bootstrap a Next.js + Tailwind app
-npx create-next-app@latest app --typescript --eslint --src-dir --use-npm --tailwind --app
-cd app
-
-# 2) Add Supabase client
-npm i @supabase/supabase-js
-
-# 3) Create files/folders
-mkdir -p src/lib src/app/(public)/api
